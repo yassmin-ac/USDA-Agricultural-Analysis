@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
-- XXXX
-- XXXX
+- [Project Overview](#project-overview).
+- [Data Sources](#data-sources).
+- [Tools](#tools).
 
 ## Project Overview
 
@@ -39,3 +40,30 @@ The data loading and inspection provided me with the following information:
 After downloading and preprocessing the .csv files, I developed scripts to create and populate tables in SQL. I then ran queries to remove commas from the data, ensuring that all INTEGER values functioned correctly. I've included below a sample of one of the tables; for the complete set, please look at the repository's files.
 
 Creating the milk_production table:
+
+```sql
+CREATE TABLE milk_production (
+    Year INTEGER,
+    Period TEXT,
+    Geo_Level TEXT,
+    State_ANSI INTEGER,
+    Commodity_ID INTEGER,
+    Domain TEXT,
+    Value INTEGER
+);
+```
+
+Removing the commas from the milk_production table:
+
+```sql
+UPDATE milk_production SET value = REPLACE(value, ',', '');
+```
+
+## Exploratory Data Analysis (EDA)
+
+The major objectives of the exploratory analysis were to:
+
+- Determine the significance of each of the 6 product categories to the country.
+- Assess state-by-state production for each commodity.
+- Identify trends or anomalies.
+- Highlight areas that may require more attention.
