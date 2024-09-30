@@ -5,6 +5,7 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaning/preparation)
 
 ## Project Overview
 
