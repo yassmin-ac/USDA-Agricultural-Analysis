@@ -5,7 +5,7 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning/Preparation](#data-cleaning/preparation)
+- [Data Cleaning and Preparation](#data-cleaning-andpreparation)
 
 ## Project Overview
 
@@ -27,7 +27,7 @@ The datasets include: 'milk_production', 'cheese_production', 'coffee_production
 - SQLite / DBeaver - Data Analysis
 - Tableau - Creating Reports
 
-## Data Cleaning/Preparation
+## Data Cleaning and Preparation
 
 ### 1. Getting familiar with the datasets
 
