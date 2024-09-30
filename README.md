@@ -68,3 +68,24 @@ The major objectives of the exploratory analysis were to:
 - Assess state-by-state production for each commodity.
 - Identify trends or anomalies.
 - Highlight areas that may require more attention.
+
+### General Analysis
+
+The first step was to compare the total production of each category between 1990 and 2022.
+
+```sql
+SELECT 
+  (SELECT SUM(mp."Value") FROM milk_production mp WHERE mp."Year" >= 1990 AND mp."Year" <= 2022) AS SUM_Milk_Production
+  ,(SELECT SUM(ep."Value") FROM egg_production ep WHERE ep."Year" >= 1990 AND ep."Year" <= 2022) AS SUM_Egg_Production
+  ,(SELECT SUM(cp."Value") FROM cheese_production cp WHERE cp."Year" >= 1990 AND cp."Year" <= 2022) AS SUM_Cheese_Production
+  ,(SELECT SUM(yp."Value") FROM yogurt_production yp WHERE yp."Year" >= 1990 AND yp."Year" <= 2022) AS SUM_Yogurt_Production
+  ,(SELECT SUM(hp."Value") FROM honey_production hp WHERE hp."Year" >= 1990 AND hp."Year" <= 2022) AS SUM_Honey_Production
+  ,(SELECT SUM(co."Value") FROM coffee_production co WHERE co."Year" >= 1990 AND co."Year" <= 2022) AS SUM_Coffee_Production;
+```
+
+![1](https://github.com/user-attachments/assets/d26a263b-a312-4d96-93a5-e5f4ad1abb56)
+
+#### Insight
+
+*Milk leads the production ranking, accounting for nearly three times the combined output of the other six categories. Therefore, I decided to conduct a specific analysis of milk and its derivatives cheese and yogurt.*
+
