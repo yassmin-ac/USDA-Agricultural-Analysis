@@ -362,7 +362,7 @@ LIMIT 5;
 
 The total production from 1990 to 2022 indicates that milk dominated the rankings, accounting for nearly three times the combined output of the other five categories. A national analysis of milk and its derivatives—cheese and yogurt—revealed that all three categories experienced a general growth. While milk and cheese showed consistent growth over the years, yogurt experienced fluctuations but has recently begun to recover from its decline since peaking in 2009.
 
-The leading states for production in these categories are California, Wisconsin, and New York.
+The leading states for production in these three categories are California, Wisconsin, and New York.
 
 Areas of concern regarding the three leading states:
 
