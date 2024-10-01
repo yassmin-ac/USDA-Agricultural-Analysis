@@ -147,7 +147,7 @@ GROUP BY "Year";
 
 ### State by State Production
 
-The next task was to analyze the contribution of each state to national production.
+The next task was to analyze the contribution of each state to the national production.
 
 - Milk:
 
