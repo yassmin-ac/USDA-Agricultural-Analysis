@@ -1,6 +1,8 @@
 # USDA Agricultural Analysis
 
-## Table of Contents 📔
+## Table of Contents
+
+📔
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -8,7 +10,9 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
 
-## Project Overview 📖
+## Project Overview
+
+📖
 
 This analysis examines the performance and trends of six agricultural categories produced in the United States, focusing on their historical progression and potential correlations. The impact of each state's production was also taken into account. The data spans the years 1990 to 2022.
 
@@ -22,7 +26,9 @@ The datasets used in this analysis were provided by the [USDA - United States Ag
 
 The datasets include: 'milk_production', 'cheese_production', 'coffee_production', 'honey_production', 'yogurt_production', and a 'state_lookup' table. The data spans multiple years and states, with varying production levels for each commodity.
 
-## Tools 🛠️
+## Tools
+
+🛠️
 
 - MS Excel - Data Cleaning
 - SQLite / DBeaver - Data Analysis
