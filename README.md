@@ -362,13 +362,13 @@ LIMIT 5;
 
 The total production from 1990 to 2022 indicates that milk dominated the rankings, accounting for nearly three times the combined output of the other five categories. A national analysis of milk and its derivatives—cheese and yogurt—revealed that all three categories experienced a general growth. While milk and cheese showed consistent growth over the years, yogurt experienced fluctuations but has recently begun to recover from its decline since peaking in 2009.
 
-The leading states for production in these three categories are California, Wisconsin, and New York.
+The leading states for production in milk and its derivatives categories are California, Wisconsin, and New York.
 
 Areas of concern regarding the three leading states:
 
-1. **California:** Milk's peak year was 2014, with production nearly one billion dollars higher than in 2022, indicating a need for support. Additionally, yogurt production in California has a significant 13-year gap between its best year in 2009 and its most recent performance, which warrants further investigation.
+1. **California:** Milk's peak year was 2014, with production nearly one billion dollars higher than in 2022, indicating a need for support. Additionally, yogurt production in California has a significant 13-year gap between its best year in 2009 and its most recent performance in 2022, which warrants further investigation.
 2. **Wisconsin:** Similarly, yogurt production in Wisconsin peaked in 2009, and 2022 was not among its top-performing years, also resulting in a 13-year gap. The challenges faced by both states may be interconnected.
-3. **New York:** In contrast, New York’s yogurt production has shown the most progress since 2008, offering an interesting comparison with California and Wisconsin. However, cheese production in New York requires attention due to declines in both 2021 and 2022.
+3. **New York:** In contrast, New York’s yogurt production has shown in 2022 the most progress since 2008, offering an interesting comparison with California and Wisconsin. However, cheese production in New York requires attention due to declines in both 2021 and 2022.
 
 ## Data Visualization
 
