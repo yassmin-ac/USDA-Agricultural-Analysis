@@ -29,7 +29,7 @@ The datasets include: 'milk_production.csv', 'cheese_production.csv', 'coffee_pr
 
 - MS Excel - Data Cleaning
 - SQLite / DBeaver - Data Analysis
-- Tableau - Creating Reports
+- Tableau - Creating Data Visualization and Reports
 
 ## Data Cleaning and Preparation
 
