@@ -256,9 +256,11 @@ LIMIT 5;
 
 #### California's Insight
 
-*Milk's strongest year was 2014, with production approximately one billion dollars higher than in 2022.
-Cheese peaked in 2018, but the decline in 2022 is not significantly different from previous years.
-Yogurt peaked in 2009, and 2022 is not one of its top-performing years. The 13-year gap between its best year and the most recent performance warrants further attention.*
+*Milk's strongest year was 2014, with production approximately one billion dollars higher than in 2022.*
+
+*Cheese production peaked in 2018, and the decline in 2022 is not significant.*
+
+*Yogurt peaked in 2009, and 2022 is not one of its top-performing years. The 13-year gap between its best year and the most recent performance warrants further attention.*
 
 - Wisconsin
 
