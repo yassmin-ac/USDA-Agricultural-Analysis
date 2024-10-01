@@ -7,6 +7,9 @@
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
+- [Insights and Interpretations](#insights-and-interpretations)
+- [Data Visualization](#data-visualization)
+- [Limitations](#limitations)
 
 ## Project Overview
 
@@ -345,3 +348,39 @@ LIMIT 5;
 Cheese reached its peak in 2020 but experienced a decline in both 2021 and 2022.
 Yogurt saw its best performance in 2022, with steady growth in prior years, except for 2019, when it failed to make the top five.*
 
+## Insights and Interpretations
+
+The total production from 1990 to 2022 indicates that milk dominated the rankings, accounting for nearly three times the combined output of the other five categories. A national analysis of milk and its derivatives—cheese and yogurt—revealed that all three categories experienced a general growth. While milk and cheese showed consistent growth over the years, yogurt experienced fluctuations but has recently begun to recover from its decline since peaking in 2009.
+
+The leading states for production in these categories are California, Wisconsin, and New York.
+
+Areas of concern regarding the three leading states:
+
+1. **California:** Milk's peak year was 2014, with production nearly one billion dollars higher than in 2022, indicating a need for support. Additionally, yogurt production in California has a significant 13-year gap between its best year in 2009 and its most recent performance, which warrants further investigation.
+2. **Wisconsin:** Similarly, yogurt production in Wisconsin peaked in 2009, and 2022 was not among its top-performing years, also resulting in a 13-year gap. The challenges faced by both states may be interconnected.
+3. **New York:** In contrast, New York’s yogurt production has shown the most progress since 2008, offering an interesting comparison with California and Wisconsin. However, cheese production in New York requires attention due to declines in both 2021 and 2022.
+
+## Data Visualization
+
+![0  Dashboard png](https://github.com/user-attachments/assets/f87b6ba4-5275-470f-adbb-eed1e58cacff)
+
+To present the findings, I created an interactive Tableau dashboard where you can easily select and explore the specific information you need.
+Click [here](https://public.tableau.com/app/profile/yassmin.ac/viz/USDAAgriculturalAnalysis/Milkdashboard) to interact with the dashboard, following the instructions below.
+
+- Section 1
+The first section displays data for each dairy category. You can switch between categories by clicking on the tabs, which will show a map highlighting the states where each product is produced. States with higher production are shaded in darker colors. Hovering over a state reveals a tooltip displaying its total production from 1990 to 2022.
+
+![Demonstration 1](https://github.com/user-attachments/assets/55737122-0644-4882-83c1-cd8006bb8133)
+
+- Section 2
+The second section highlights the best-performing states and their top five production years for each of the three selected categories.
+
+![Demonstration 2](https://github.com/user-attachments/assets/53648236-5bd4-4874-950e-14bf2ff95fc4)
+
+- Section 3
+In the third section, clicking on a state on the map will update the line charts for each category, showing the production trends in that state over time.
+
+![Demonstration 3](https://github.com/user-attachments/assets/5037d282-3fb1-4baa-89df-c173473fd7f7)
+
+## Limitations
+Excluding the 2023 data from the analysis was necessary due to the unavailability of complete information for that year.
