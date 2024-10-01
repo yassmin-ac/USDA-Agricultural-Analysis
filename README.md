@@ -208,7 +208,7 @@ ORDER BY Total_Cheese_Production DESC;
 
 #### Insight
 
-*The three categories identify California, Wisconsin, and New York as the top states. Next, we will take a closer look at each of these states.*
+*The three categories identify California, Wisconsin, and New York as the top states. Next, I took a closer look at each of these states.*
 
 ### Leading States and Their Best Performing Years
 
