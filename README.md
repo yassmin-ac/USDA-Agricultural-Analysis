@@ -7,6 +7,7 @@
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
+  - [General Analysis](#general-analysis)
 - [Insights and Interpretations](#insights-and-interpretations)
 - [Data Visualization](#data-visualization)
 - [Limitations](#limitations)
