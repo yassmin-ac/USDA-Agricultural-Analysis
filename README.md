@@ -304,9 +304,11 @@ LIMIT 5;
 
 #### Wisconsin's Insight
 
-*Milk experienced its best performance in 2022, following a trend of consistent growth in the preceding years.
-Cheese saw a slight decline after 2018, but rebounded in 2021 and reached its peak in 2022.
-Yogurt, in contrast, peaked in 2009, and 2022 is not among its strongest years. The 13-year gap between its highest performance and the present requires further attention.*
+*Milk experienced its best performance in 2022, following a trend of consistent growth in the preceding years.*
+
+*The cheese production saw a slight decline after 2018, but rebounded in 2021 and reached its peak in 2022.*
+
+*Yogurt, in contrast, peaked in 2009, and 2022 is not among its strongest years. The 13-year gap between its highest performance and the present performance requires further attention.*
 
 - New York
 
@@ -350,9 +352,11 @@ LIMIT 5;
 
 #### New York' Insight
 
-*Milk's best-performing year was 2022, following consistent growth in the preceding years, except for 2018, when it did not rank among the top five years.
-Cheese reached its peak in 2020 but experienced a decline in both 2021 and 2022.
-Yogurt saw its best performance in 2022, with steady growth in prior years, except for 2019, when it failed to make the top five.*
+*Milk's best-performing year was 2022, following consistent growth in the preceding years, except for 2018, when it did not rank among the top five years.*
+
+*Cheese reached its peak in 2020 but experienced a decline in both 2021 and 2022.*
+
+*Yogurt saw its best performance in 2022, with steady growth in prior years, except for 2019, when it failed to make the top five.*
 
 ## Insights and Interpretations
 
