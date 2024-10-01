@@ -1,14 +1,14 @@
 # USDA Agricultural Analysis
 
-## Table of Contents
+## 📔 Table of Contents
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
-- [Tools](#tools)
+- [Tools](#🛠️-tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
 
-## Project Overview
+## 📖 Project Overview
 
 This analysis examines the performance and trends of six agricultural categories produced in the United States, focusing on their historical progression and potential correlations. The impact of each state's production was also taken into account. The data spans the years 1990 to 2022.
 
@@ -16,19 +16,19 @@ The following sections outline the steps taken during the analysis, including SQ
 
 ![0  GIF](https://github.com/user-attachments/assets/34fac7ba-6bb5-49b6-b43d-1450731d5c47)
 
-## Data Sources
+## ℹ️ Data Sources
 
 The datasets used in this analysis were provided by the [USDA - United States Agriculture Department](https://quickstats.nass.usda.gov/) and curated by the University of California for its [Learn SQL Basics for Data Science Specialization](https://www.coursera.org/specializations/learn-sql-basics-data-science?irclickid=ziD0EF0QPxyKR-hzfcQ%3AWQJsUkCzueTdMQf7Rc0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3637364&utm_content=b2c).
 
 The datasets include: 'milk_production', 'cheese_production', 'coffee_production', 'honey_production', 'yogurt_production', and a 'state_lookup' table. The data spans multiple years and states, with varying production levels for each commodity.
 
-## Tools
+## 🛠️ Tools
 
 - MS Excel - Data Cleaning
 - SQLite / DBeaver - Data Analysis
 - Tableau - Creating Reports
 
-## Data Cleaning and Preparation
+## 🧹 Data Cleaning and Preparation
 
 ### 1. Getting familiar with the datasets
 
@@ -61,7 +61,7 @@ Removing the commas from the milk_production table:
 UPDATE milk_production SET value = REPLACE(value, ',', '');
 ```
 
-## Exploratory Data Analysis EDA
+## 🔍 Exploratory Data Analysis EDA
 
 The major objectives of the exploratory analysis were to:
 
