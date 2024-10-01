@@ -8,6 +8,9 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
   - [General Analysis](#general-analysis)
+  - [Trends Over Time](#trends-over-time)
+  - [State by State Production](#state-by-state-production)
+  - [Leading States and Their Best Performing Years](#leading-states-and-their-best-performing-years)
 - [Insights and Interpretations](#insights-and-interpretations)
 - [Data Visualization](#data-visualization)
 - [Limitations](#limitations)
@@ -70,7 +73,7 @@ UPDATE milk_production SET value = REPLACE(value, ',', '');
 The major objectives of the exploratory analysis were to:
 
 - Determine the significance of each of the 6 product categories to the country.
-- Assess state-by-state production for each commodity.
+- Assess state by state production for each commodity.
 - Identify trends or anomalies.
 - Highlight areas that may require more attention.
 
@@ -142,7 +145,7 @@ GROUP BY "Year";
 
 *While milk and cheese exhibited consistent growth over the years, yogurt experienced fluctuations and has recently begun to recover from its decline in 2014, which followed its peak in 2009.*
 
-### State-by-state production
+### State by State Production
 
 The next task was to analyze the contribution of each state to national production.
 
@@ -207,7 +210,7 @@ ORDER BY Total_Cheese_Production DESC;
 
 *The three categories identify California, Wisconsin, and New York as the top states. Next, we will take a closer look at each of these states.*
 
-### Leading states and their best-performing years
+### Leading States and Their Best Performing Years
 
 Finally, we will analyze milk’s top five performing years for each state to assess whether the most recent years are the best, as well as to identify any significant discrepancies among them.
 
