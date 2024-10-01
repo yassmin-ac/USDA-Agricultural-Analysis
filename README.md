@@ -212,7 +212,7 @@ ORDER BY Total_Cheese_Production DESC;
 
 ### Leading States and Their Best Performing Years
 
-Finally, we will analyze milk’s top five performing years for each state to assess whether the most recent years are the best, as well as to identify any significant discrepancies among them.
+Finally, I analyzed the top five performing years for milk in each state to assess whether the most recent years are the best, as well as to identify any significant discrepancies among them.
 
 - California
 
