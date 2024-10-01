@@ -199,4 +199,149 @@ ORDER BY Total_Cheese_Production DESC;
 
 ![SbS Yogurt States](https://github.com/user-attachments/assets/eaacfc92-8cbb-410b-890e-a564fe077fa2)
 
+#### Insight
+
+*The three categories identify California, Wisconsin, and New York as the top states. Next, we will take a closer look at each of these states.*
+
+### Leading states and their best-performing years
+
+Finally, we will analyze milk’s top five performing years for each state to assess whether the most recent years are the best, as well as to identify any significant discrepancies among them.
+
+- California
+
+Milk:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Milk_Production_California
+FROM milk_production mp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 6
+GROUP BY "Year"
+ORDER BY "Total_Milk_Production_California" DESC
+LIMIT 5;
+```
+
+Cheese:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Cheese_Production_California
+FROM cheese_production cp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 6
+GROUP BY "Year"
+ORDER BY Total_Cheese_Production_California DESC
+LIMIT 5;
+```
+
+Yogurt:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Yogurt_Production_California
+FROM yogurt_production yp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 6
+GROUP BY "Year"
+ORDER BY Total_Yogurt_Production_California DESC
+LIMIT 5;
+```
+
+![SbS Leading California](https://github.com/user-attachments/assets/76230c0d-df9c-466d-95c1-15ff37a2405c)
+
+#### California's Insight
+
+*Milk's strongest year was 2014, with production approximately one billion dollars higher than in 2022.
+Cheese peaked in 2018, but the decline in 2022 is not significantly different from previous years.
+Yogurt peaked in 2009, and 2022 is not one of its top-performing years. The 13-year gap between its best year and the most recent performance warrants further attention.*
+
+- Wisconsin
+
+Milk:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Milk_Production_Wisconsin
+FROM milk_production mp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 55
+GROUP BY "Year"
+ORDER BY Total_Milk_Production_Wisconsin DESC
+LIMIT 5;
+```
+
+Cheese:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Cheese_Production_Wisconsin
+FROM cheese_production cp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 55
+GROUP BY "Year"
+ORDER BY Total_Cheese_Production_Wisconsin DESC
+LIMIT 5;
+```
+
+Yogurt:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Yogurt_Production_Wisconsin
+FROM yogurt_production yp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 55
+GROUP BY "Year"
+ORDER BY Total_Yogurt_Production_Wisconsin DESC
+LIMIT 5;
+```
+
+![SbS Leading Wisconsin](https://github.com/user-attachments/assets/45bbb243-a2f1-48af-976d-e5aa768bfd5d)
+
+#### Wisconsin's Insight
+
+*Milk experienced its best performance in 2022, following a trend of consistent growth in the preceding years.
+Cheese saw a slight decline after 2018, but rebounded in 2021 and reached its peak in 2022.
+Yogurt, in contrast, peaked in 2009, and 2022 is not among its strongest years. The 13-year gap between its highest performance and the present requires further attention.*
+
+- New York
+
+Milk:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Milk_Production_NewYork
+FROM milk_production mp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 36
+GROUP BY "Year"
+ORDER BY Total_Milk_Production_NewYork DESC
+LIMIT 5;
+```
+
+Cheese:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Cheese_Production_NewYork
+FROM cheese_production cp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 36
+GROUP BY "Year"
+ORDER BY Total_Cheese_Production_NewYork DESC
+LIMIT 5;
+```
+
+Yogurt:
+
+```sql
+SELECT "Year"
+,SUM("Value") AS Total_Yogurt_Production_NewYork
+FROM yogurt_production yp 
+WHERE "Year" >= 1990 AND "Year" <= 2022 AND "State_ANSI" = 36
+GROUP BY "Year"
+ORDER BY Total_Yogurt_Production_NewYork DESC
+LIMIT 5;
+```
+
+![SbS Leading New York](https://github.com/user-attachments/assets/a0758b1f-07c5-4bd9-a90a-f50cbd6e8e4d)
+
+#### New York' Insight
+
+*Milk's best-performing year was 2022, following consistent growth in the preceding years, except for 2018, when it did not rank among the top five years.
+Cheese reached its peak in 2020 but experienced a decline in both 2021 and 2022.
+Yogurt saw its best performance in 2022, with steady growth in prior years, except for 2019, when it failed to make the top five.*
 
