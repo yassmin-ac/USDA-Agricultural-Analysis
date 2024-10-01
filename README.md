@@ -132,20 +132,30 @@ GROUP BY "Year";
 
 *Having established that the three categories experienced growth from 1990 to 2022, let’s analyze this growth behavior year by year using line charts.*
 
-- Milk:
-
-![9  Line Milk](https://github.com/user-attachments/assets/d78a5671-6af3-461b-8cd5-b7ca070483fb)
-
-- Cheese:
-
-![11  Line Cheese](https://github.com/user-attachments/assets/8dced995-a169-4b17-8f53-43742954a81f)
-
-- Yogurt:
-
-![13  Line Yogurt](https://github.com/user-attachments/assets/41af8c5e-9f13-4e59-b133-7a8057a861d1)
+![Line charts side-by-side](https://github.com/user-attachments/assets/0e061613-ed1a-44ef-b360-4cb903b92fa5)
 
 #### Insight
 
 *While milk and cheese exhibited consistent growth over the years, yogurt experienced fluctuations and has recently begun to recover from its decline in 2014, which followed its peak in 2009.*
 
 ### State-by-state production
+
+The next task is to analyze the contribution of each state to national production.
+
+- Milk:
+
+```sql
+SELECT 
+mp."State_ANSI"
+,sl."State"
+,SUM(mp."Value") AS Total_Milk_Production
+FROM 
+milk_production mp
+INNER JOIN 
+state_lookup sl  ON mp."State_ANSI" = sl."State_ANSI"
+WHERE mp."Year" >= 1990 AND mp."Year" <= 2022
+GROUP BY mp."State_ANSI"
+ORDER BY Total_Milk_Production DESC
+LIMIT 5;
+```
+
