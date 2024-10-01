@@ -89,3 +89,62 @@ SELECT
 
 *Milk leads the production ranking, accounting for nearly three times the combined output of the other six categories. Therefore, I decided to conduct a specific analysis of milk and its derivatives cheese and yogurt.*
 
+### Trends Over Time
+
+The next step was to analyze the growth trends of each dairy product over the years. Queries were executed to compare the total production in 1990 and 2022.
+
+- Milk:
+
+```sql
+SELECT "Year"
+,SUM("Value")
+FROM milk_production mp 
+WHERE "Year" IN (1990, 2022)
+GROUP BY "Year";
+```
+
+![8  Growing Milk](https://github.com/user-attachments/assets/a1bfa1f0-4d41-4976-a79d-b456b3f40e5d)
+
+- Cheese:
+```sql
+SELECT "Year"
+,SUM("Value")
+FROM cheese_production cp 
+WHERE "Year" IN (1990, 2022)
+GROUP BY "Year";
+```
+
+![10  Growing Cheese](https://github.com/user-attachments/assets/634f1ded-b43c-428a-bd13-10eb637a700c)
+
+- Yogurt:
+```sql
+SELECT "Year"
+,SUM("Value")
+FROM yogurt_production yp 
+WHERE "Year" IN (1990, 2022)
+GROUP BY "Year";
+```
+
+![12  Growing Yogurt](https://github.com/user-attachments/assets/61126cd0-cf2f-4666-ba11-10ee3be13e2f)
+
+#### Insight
+
+*Having established that the three categories experienced growth from 1990 to 2022, let’s analyze this growth behavior year by year using line charts.*
+
+- Milk:
+
+![9  Line Milk](https://github.com/user-attachments/assets/d78a5671-6af3-461b-8cd5-b7ca070483fb)
+
+- Cheese:
+
+![11  Line Cheese](https://github.com/user-attachments/assets/8dced995-a169-4b17-8f53-43742954a81f)
+
+- Yogurt:
+
+![13  Line Yogurt](https://github.com/user-attachments/assets/41af8c5e-9f13-4e59-b133-7a8057a861d1)
+
+#### Insight
+
+*While milk and cheese exhibited consistent growth over the years, yogurt experienced fluctuations and has recently begun to recover from its decline in 2014, which followed its peak in 2009.*
+
+### State-by-state production
