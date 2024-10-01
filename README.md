@@ -95,7 +95,7 @@ SELECT
 
 #### Insight
 
-*Milk leads the production ranking, accounting for nearly three times the combined output of the other six categories. Therefore, I decided to conduct a specific analysis of milk and its derivatives cheese and yogurt.*
+*Milk leads the production ranking, accounting for nearly three times the combined output of the other five categories. Therefore, I decided to conduct a specific analysis of milk and its derivatives cheese and yogurt.*
 
 ### Trends Over Time
 
