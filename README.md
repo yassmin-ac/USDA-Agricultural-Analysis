@@ -17,7 +17,7 @@
 
 ## Project Overview
 
-This analysis examines the performance and trends of six agricultural categories produced in the United States, focusing on their historical progression and potential correlations. The impact of each state's production was also taken into account. The data spans the years 1990 to 2022.
+This analysis examines the performance and trends of a few agricultural categories produced in the United States, focusing on their historical progression and potential correlations. The impact of each state's production was also taken into account. The data spans the years 1990 to 2022.
 
 The following sections outline the steps taken during the analysis, including SQL queries and Tableau visualizations. You can also explore the findings interactively through the dashboard linked [here](https://public.tableau.com/app/profile/yassmin.ac/viz/USDAAgriculturalAnalysis/Milkdashboard).
 
@@ -41,7 +41,7 @@ The datasets include: 'milk_production.csv', 'cheese_production.csv', 'coffee_pr
 
 The data loading and inspection provided me with the following information:
 
-- The ‘state_lookup’ dataset brings each state’s name and its correspondent code (State_ANSI).
+- The ‘state_lookup’ dataset brings each state’s name and its corresponding code (State_ANSI).
 - The other 6 datasets bring each product category and its corresponding total production, divided by year and state. The column “State_ANSI” was used as a primary key to correlate all the datasets.
 
 ### 2. Creating Tables
@@ -72,7 +72,7 @@ UPDATE milk_production SET value = REPLACE(value, ',', '');
 
 The major objectives of the exploratory analysis were to:
 
-- Determine the significance of each of the 6 product categories to the country.
+- Determine the significance of the main product categories to the country.
 - Assess state by state production for each commodity.
 - Identify trends or anomalies.
 - Highlight areas that may require more attention.
