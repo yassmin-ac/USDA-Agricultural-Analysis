@@ -37,7 +37,7 @@ The datasets include: 'milk_production.csv', 'cheese_production.csv', 'coffee_pr
 
 The data loading and inspection provided me with the following information:
 
-- The ‘state_lookup’ dataset brings each state’s name and its correspondent code (State_ANSI)
+- The ‘state_lookup’ dataset brings each state’s name and its correspondent code (State_ANSI).
 - The other 5 datasets bring each product category and its corresponding total production, divided by year and state. The column “State_ANSI” was used as a primary key to correlate all the datasets.
 
 ### 2. Creating Tables
