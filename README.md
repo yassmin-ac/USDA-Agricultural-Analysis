@@ -130,9 +130,9 @@ GROUP BY "Year";
 
 #### Insight
 
-*Having established that the three categories experienced growth from 1990 to 2022, let’s analyze this growth behavior year by year using line charts.*
+*After identifying growth across the three categories from 1990 to 2022, I conducted a year-by-year analysis of this trend using line charts.*
 
-![Line charts side-by-side](https://github.com/user-attachments/assets/828eacdb-0a93-4ce8-8135-ab7886bc442b)
+![Side-by-side_Line Charts](https://github.com/user-attachments/assets/6275ebaa-1d16-4f9d-bfdc-8c8fdc5d3047)
 
 #### Insight
 
@@ -159,3 +159,34 @@ ORDER BY Total_Milk_Production DESC
 LIMIT 5;
 ```
 
+- Cheese:
+
+```sql
+SELECT 
+cp."State_ANSI"
+,sl."State"
+,SUM(cp."Value") AS Total_Cheese_Production
+FROM 
+cheese_production cp 
+INNER JOIN 
+state_lookup sl  ON cp."State_ANSI" = sl."State_ANSI"
+WHERE cp."Year" >= 1990 AND cp."Year" <= 2022
+GROUP BY cp."State_ANSI"
+ORDER BY Total_Cheese_Production DESC;
+```
+
+- Yogurt:
+
+```sql
+SELECT 
+cp."State_ANSI"
+,sl."State"
+,SUM(cp."Value") AS Total_Cheese_Production
+FROM 
+cheese_production cp 
+INNER JOIN 
+state_lookup sl  ON cp."State_ANSI" = sl."State_ANSI"
+WHERE cp."Year" >= 1990 AND cp."Year" <= 2022
+GROUP BY cp."State_ANSI"
+ORDER BY Total_Cheese_Production DESC;
+```
