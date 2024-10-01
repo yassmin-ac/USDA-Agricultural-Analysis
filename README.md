@@ -42,7 +42,7 @@ The data loading and inspection provided me with the following information:
 
 ### 2. Creating Tables
 
-After downloading and preprocessing the .csv files, I developed scripts to create and populate tables in SQL. I then ran queries to remove commas from the data, ensuring that all the INTEGER values functioned correctly. I've included below a sample of a table; for the complete set, please look at the repository's files.
+After downloading and preprocessing the .csv files, I developed scripts to create and populate tables in SQL. I then ran queries to remove commas from the data, ensuring that all the INTEGER values functioned correctly. I've included below a table sample; for the complete set, please look at the scripts on the repository's files.
 
 Creating the milk_production table:
 
