@@ -72,7 +72,7 @@ UPDATE milk_production SET value = REPLACE(value, ',', '');
 
 The major objectives of the exploratory analysis were to:
 
-- Determine the significance of the main product categories to the country.
+- Determine the significance of the most relevant product categories to the country.
 - Assess state by state production for each commodity.
 - Identify trends or anomalies.
 - Highlight areas that may require more attention.
