@@ -376,17 +376,20 @@ Areas of concern regarding the three leading states:
 
 To present the findings, I created an interactive Tableau dashboard that allows you to easily select and explore the specific information you need. Click [here](https://public.tableau.com/app/profile/yassmin.ac/viz/USDAAgriculturalAnalysis/Milkdashboard) to interact with the dashboard by following the instructions below:
 
-- Section 1
+- Section 1:
+
 The first section displays data for each dairy category. You can switch between categories by clicking on the tabs, which will show a map highlighting the states where each product is produced. States with higher production are shaded in darker colors. Hovering over a state reveals a tooltip displaying its total production from 1990 to 2022.
 
 ![Demonstration 1](https://github.com/user-attachments/assets/55737122-0644-4882-83c1-cd8006bb8133)
 
-- Section 2
+- Section 2:
+
 The second section highlights the best-performing states and their top five production years for each of the three selected categories.
 
 ![Demonstration 2](https://github.com/user-attachments/assets/53648236-5bd4-4874-950e-14bf2ff95fc4)
 
-- Section 3
+- Section 3:
+
 In the third section, clicking on a state on the map will update the line charts for each category, showing the production trends in that state over time.
 
 ![Demonstration 3](https://github.com/user-attachments/assets/5037d282-3fb1-4baa-89df-c173473fd7f7)
