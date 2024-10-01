@@ -6,6 +6,7 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
 
 ## Project Overview
 
@@ -60,7 +61,7 @@ Removing the commas from the milk_production table:
 UPDATE milk_production SET value = REPLACE(value, ',', '');
 ```
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis EDA
 
 The major objectives of the exploratory analysis were to:
 
