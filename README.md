@@ -132,7 +132,7 @@ GROUP BY "Year";
 
 *Having established that the three categories experienced growth from 1990 to 2022, let’s analyze this growth behavior year by year using line charts.*
 
-![Line charts side-by-side](https://github.com/user-attachments/assets/0e061613-ed1a-44ef-b360-4cb903b92fa5)
+![Line charts side-by-side](https://github.com/user-attachments/assets/828eacdb-0a93-4ce8-8135-ab7886bc442b)
 
 #### Insight
 
