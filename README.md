@@ -159,6 +159,9 @@ ORDER BY Total_Milk_Production DESC
 LIMIT 5;
 ```
 
+![SbS Milk States](https://github.com/user-attachments/assets/1579d1ff-4704-410c-a58e-e10fab635005)
+
+
 - Cheese:
 
 ```sql
@@ -175,6 +178,9 @@ GROUP BY cp."State_ANSI"
 ORDER BY Total_Cheese_Production DESC;
 ```
 
+![SbS Cheeese States](https://github.com/user-attachments/assets/9ee42bf3-1d65-45f3-97b0-a7470017e58e)
+
+
 - Yogurt:
 
 ```sql
@@ -190,3 +196,7 @@ WHERE cp."Year" >= 1990 AND cp."Year" <= 2022
 GROUP BY cp."State_ANSI"
 ORDER BY Total_Cheese_Production DESC;
 ```
+
+![SbS Yogurt States](https://github.com/user-attachments/assets/eaacfc92-8cbb-410b-890e-a564fe077fa2)
+
+
