@@ -192,16 +192,16 @@ ORDER BY Total_Cheese_Production DESC;
 
 ```sql
 SELECT 
-cp."State_ANSI"
+yp."State_ANSI"
 ,sl."State"
-,SUM(cp."Value") AS Total_Cheese_Production
+,SUM(yp."Value") AS Total_Yogurt_Production
 FROM 
-cheese_production cp 
+yogurt_production yp 
 INNER JOIN 
-state_lookup sl  ON cp."State_ANSI" = sl."State_ANSI"
-WHERE cp."Year" >= 1990 AND cp."Year" <= 2022
-GROUP BY cp."State_ANSI"
-ORDER BY Total_Cheese_Production DESC;
+state_lookup sl  ON yp."State_ANSI" = sl."State_ANSI"
+WHERE yp."Year" >= 1990 AND yp."Year" <= 2022
+GROUP BY yp."State_ANSI"
+ORDER BY Total_Yogurt_Production DESC;
 ```
 
 ![SbS Yogurt States](https://github.com/user-attachments/assets/eaacfc92-8cbb-410b-890e-a564fe077fa2)
