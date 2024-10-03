@@ -37,7 +37,7 @@ The datasets include: 'milk_production.csv', 'cheese_production.csv', 'coffee_pr
 
 ## Data Cleaning and Preparation
 
-### 1. Getting familiar with the datasets
+### 1. Getting Familiar with the Datasets
 
 The data loading and inspection provided me with the following information:
 
