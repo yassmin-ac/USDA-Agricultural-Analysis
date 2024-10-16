@@ -27,7 +27,7 @@ The following sections outline the steps taken during the analysis, including SQ
 
 The datasets used in this analysis were provided by the [USDA - United States Agriculture Department](https://quickstats.nass.usda.gov/) and curated by the University of California for its [Learn SQL Basics for Data Science Specialization](https://www.coursera.org/specializations/learn-sql-basics-data-science?irclickid=ziD0EF0QPxyKR-hzfcQ%3AWQJsUkCzueTdMQf7Rc0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3637364&utm_content=b2c).
 
-The datasets include: 'milk_production.csv', 'cheese_production.csv', 'coffee_production.csv', 'honey_production.csv', 'yogurt_production.csv', and 'state_lookup.csv'. The data spans multiple years and states, with varying production levels for each commodity.
+The datasets include: 'milk_production.csv', 'cheese_production.csv', 'egg_production.csv', 'coffee_production.csv', 'honey_production.csv', 'yogurt_production.csv', and 'state_lookup.csv'. The data spans multiple years and states, with varying production levels for each commodity.
 
 ## Tools
 
