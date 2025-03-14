@@ -93,7 +93,7 @@ SELECT
 
 ![1](https://github.com/user-attachments/assets/d26a263b-a312-4d96-93a5-e5f4ad1abb56)
 
-#### Insight
+#### Comment
 
 *Milk leads the production ranking, accounting for nearly three times the combined output of the other five categories. Therefore, I decided to conduct a specific analysis of milk and its derivatives cheese and yogurt.*
 
@@ -135,13 +135,13 @@ GROUP BY "Year";
 
 ![12  Growing Yogurt](https://github.com/user-attachments/assets/61126cd0-cf2f-4666-ba11-10ee3be13e2f)
 
-#### Insight
+#### Comment
 
 *After identifying growth across the three categories from 1990 to 2022, I conducted a year-by-year analysis of this trend using line charts.*
 
 ![Side-by-side_Line Charts](https://github.com/user-attachments/assets/6275ebaa-1d16-4f9d-bfdc-8c8fdc5d3047)
 
-#### Insight
+#### Comment
 
 *While milk and cheese exhibited consistent growth over the years, yogurt experienced fluctuations and has recently begun to recover from its decline in 2014, which followed its peak in 2009.*
 
@@ -206,7 +206,7 @@ ORDER BY Total_Yogurt_Production DESC;
 
 ![SbS Yogurt States](https://github.com/user-attachments/assets/eaacfc92-8cbb-410b-890e-a564fe077fa2)
 
-#### Insight
+#### Comment
 
 *The three categories identify California, Wisconsin, and New York as the top states. Next, I took a closer look at each of these states.*
 
@@ -254,7 +254,7 @@ LIMIT 5;
 
 ![SbS Leading California](https://github.com/user-attachments/assets/76230c0d-df9c-466d-95c1-15ff37a2405c)
 
-#### California's Insight
+#### Comment
 
 *Milk's strongest year was 2014, with production approximately one billion dollars higher than in 2022.*
 
@@ -302,7 +302,7 @@ LIMIT 5;
 
 ![SbS Leading Wisconsin](https://github.com/user-attachments/assets/45bbb243-a2f1-48af-976d-e5aa768bfd5d)
 
-#### Wisconsin's Insight
+#### Comment
 
 *Milk experienced its best performance in 2022, following a trend of consistent growth in the preceding years.*
 
@@ -350,7 +350,7 @@ LIMIT 5;
 
 ![SbS Leading New York](https://github.com/user-attachments/assets/a0758b1f-07c5-4bd9-a90a-f50cbd6e8e4d)
 
-#### New York' Insight
+#### Comment
 
 *Milk's best-performing year was 2022, following consistent growth in the preceding years, except for 2018, when it did not rank among the top five years.*
 
